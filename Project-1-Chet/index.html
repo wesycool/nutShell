@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Planner</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link rel ="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Daily Planner</h1>
+          <p class="lead" id="currentDay">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+      </div>
+    <div class="container">
+      <div class="row">
+
+        
+    <div class="col">
+        <div class = "container-calendar">
+          <div class = "card">
+            <div class = "card-header" id ="monthAndYear">June 2020</div>
+              <table class = " table table-bordered table-responsive-sm" id = "calendar">
+                  <thread>
+                      <tr>
+                        <th>Sun</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                      </tr>
+                      </thread>
+                      <thread>
+                        <tr>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        </tr>
+                        <tr>
+                        <th>8</th>
+                        <th>9</th>
+                        <th>10</th>
+                        <th>11</th>
+                        <th>12</th>
+                        <th>13</th>
+                        <th>14</th>
+                        </tr>
+                        <tr>
+                        <th>15</th>
+                        <th>16</th>
+                        <th>17</th>
+                        <th>18</th>
+                        <th>19</th>
+                        <th>20</th>
+                        <th>21</th>
+                        </tr>
+                        <tr>
+                        <th>22</th>
+                        <th>23</th>
+                        <th>24</th>
+                        <th>25</th>
+                        <th>26</th>
+                        <th>27</th>
+                        <th>28</th>
+                      </tr>
+                      <tr>
+                        <th>29</th>
+                        <th>30</th>
+                      </tr>
+                  </thread>
+              <tbody id="calendar-body"></tbody>
+            </table>
+          <div class ="form-inline">
+            <button class = "btn btn-outline-primary col-sm-6" onclick=previous()>Previous</button>
+            <button class = "btn-outline-primary col-sm-6" onclick=next()>Next</button>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class = "col">
+        <div class="container-planner"></div>
+      </div>
+    </div>
+  </div>
+  
+  
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src = "style.js"></script>
+</body>
+</html>
