@@ -13,7 +13,7 @@ startup()
 
 //Loading Theme at Startup
 function startup(){
-    if (!sessionStorage.username) window.location.href = './Project1-Shayanne/';
+    if (!sessionStorage.username) window.location.href = './login/';
     else {
         document.getElementById('username').value = sessionStorage.username
         document.querySelector('#profileName').value = getData.name
