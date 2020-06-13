@@ -47,6 +47,6 @@ In regards to the future, *nutShell* has the potential to grow in many different
 * Extending the current calendar application to include all 12 months.
 
 
-Github Repository: (https://github.com/wesycool/Project1-Edmund)   
-Deployed Application: (https://wesycool.github.io/Project1-Edmund/)   
+Github Repository: (https://github.com/wesycool/nutShell)   
+Deployed Application: (https://wesycool.github.io/nutShell/)   
 YouTube Video: (https://www.youtube.com/watch?v=99AtP2D6FGQ&feature=youtu.be)
